@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_">32dp</dimen>
+    <dimen name="edittext_textsize_login">22sp</dimen>
+    <dimen name="textsize_donthaveAccount">16sp</dimen>
+    <dimen name="activity_vertical_margin">30dp</dimen>
+    <dimen name="edittext_margin_createAccount">10dp</dimen>
+    <dimen name="dt">25sp</dimen>
+    <dimen name="mg_top">15dp</dimen>
+    <dimen name="pd">10dp</dimen>
+</resources>
