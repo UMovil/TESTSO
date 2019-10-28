@@ -20,4 +20,15 @@
     <string name="hint_password_us">Contraseña :</string>
     <string name="text_button_createaccount2">Cancelar</string>
     <string name="tb">Salir</string>
+
+    <string name="tp">EVALUACIÓN DE SISTEMAS OPERATIVOS</string>
+
+    <string name="bt_v">Verificar</string>
+    // Pregunta 1
+    <string name="tp1">Pregunta 1</string>
+    <string name="Pg_1">¿Qué es un sistema operativo?</string>
+    <string name="rp1_a">a)\tEs un programa que actúa como intermediario entre el usuario y el hardware de un computador.</string>
+    <string name="rp1_b">b)\tUn sistema operativo es el código que acompaña la ejecución de cualquier aplicación.</string>
+    <string name="rp1_c">c)\tUn sistema operativo es la parte del sistema de cómputo que administra el hardware y el software.</string>
+    <string name="rp1_d">d)\ttodas las anteriores.</string>
 </resources>

@@ -8,4 +8,8 @@
     <dimen name="dt">25sp</dimen>
     <dimen name="mg_top">15dp</dimen>
     <dimen name="pd">10dp</dimen>
+    <dimen name="pd_40dp">40dp</dimen>
+    <dimen name="pd_10dp">10dp</dimen>
+    <dimen name="pd_20sp">20sp</dimen>
+    <dimen name="pd_20dp">20dp</dimen>
 </resources>

@@ -1,117 +1,246 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/icons"
     android:orientation="vertical"
+    android:paddingLeft="@dimen/pd_40dp"
+    android:paddingTop="@dimen/pd_40dp"
+    android:paddingRight="@dimen/pd_40dp"
     tools:context=".Usuario">
 
     <TextView
+        android:id="@+id/titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="@dimen/mg_top"
-        android:paddingBottom="35dp"
-        android:text="@string/txt_bienvenido"
-        android:textSize="@dimen/dt"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/pd_10dp"
+        android:text="@string/tp"
+        android:textAlignment="center"
+        android:textColor="@color/primary_text"
+        android:textSize="@dimen/pd_20sp"
+        android:textStyle="bold">
 
-        />
+    </TextView>
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingBottom="@dimen/pd">
+        android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/N"
-            android:layout_width="wrap_content"
+        <!--        Pregunta 1-->
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:text="@string/hint_nombre_us"
-            android:textSize="@dimen/dt"
+            android:background="@color/icons"
+            android:orientation="vertical"
+            android:padding="@dimen/pd_10dp"
+            android:layout_marginBottom="@dimen/pd_20dp">
 
-            />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/icons"
+                android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/nom_us"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tp1"
+                    android:textColor="@color/primary_dark"
+                    android:textSize="@dimen/pd_20sp">
 
-            android:textSize="@dimen/dt"
+                </TextView>
 
-            />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pg_1"
+                    android:textColor="@color/primary_text"
+                    android:textSize="@dimen/pd_20sp">
 
+                </TextView>
 
-    </LinearLayout>
+            </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingBottom="@dimen/pd">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/icons"
+                android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/C"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:text="@string/hint_correo_us"
-            android:textSize="@dimen/dt"
+                <!-- Pregunta 1 -->
+                <RadioGroup
+                    android:id="@+id/p1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/icons">
 
-            />
+                    <!-- Respuesta 1 -->
+                    <RadioButton
+                        android:id="@+id/p1a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/pd_10dp"
+                        android:text="@string/rp1_a"
+                        android:textColor="#000">
 
-        <TextView
-            android:id="@+id/correo_us"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:textSize="@dimen/dt"
+                    </RadioButton>
 
-            />
+                    <!-- Respuesta 2 -->
+                    <RadioButton
+                        android:id="@+id/p1b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/pd_10dp"
+                        android:text="@string/rp1_b"
+                        android:textColor="#000">
 
+                    </RadioButton>
 
-    </LinearLayout>
+                    <!-- Respuesta 3 -->
+                    <RadioButton
+                        android:id="@+id/p1c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/pd_10dp"
+                        android:text="@string/rp1_c"
+                        android:textColor="#000">
 
+                    </RadioButton>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingBottom="@dimen/pd">
+                    <!-- Respuesta 4 -->
+                    <RadioButton
+                        android:id="@+id/p1d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/pd_10dp"
+                        android:text="@string/rp1_d"
+                        android:textColor="#000">
 
-        <TextView
-            android:id="@+id/pass"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:text="@string/hint_password_us"
-            android:textSize="@dimen/dt"
+                    </RadioButton>
+                </RadioGroup>
 
-            />
+                <Button
+                    android:id="@+id/bt_vp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/pd_10dp"
+                    android:text="@string/bt_v"
+                    android:onClick="v_p1"
+                    android:textColor="@drawable/txt_btn_dos"
+                    android:background="@drawable/btn_dos"
+                    android:layout_marginBottom="@dimen/pd_40dp">
 
-        <TextView
-            android:id="@+id/password_us"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:textSize="@dimen/dt"
+                </Button>
 
-            />
+            </LinearLayout>
 
+            <!--        Pregunta 2-->
 
-    </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/icons"
+                android:orientation="vertical">
 
-    <Button
-        android:id="@+id/bs"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="@string/tb"
-        android:layout_marginTop="5dp"
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tp1"
+                    android:textColor="@color/primary_dark"
+                    android:textSize="@dimen/pd_20sp">
 
+                </TextView>
 
-        />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pg_1"
+                    android:textColor="@color/primary_text"
+                    android:textSize="@dimen/pd_20sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/icons"
+                android:orientation="vertical">
+
+                <!-- Pregunta 1 -->
+                <RadioGroup
+                    android:id="@+id/p2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/icons">
+
+                    <!-- Respuesta 1 -->
+                    <RadioButton
+                        android:id="@+id/p2a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/pd_10dp"
+                        android:text="@string/rp1_a"
+                        android:textColor="#000">
+
+                    </RadioButton>
+
+                    <!-- Respuesta 2 -->
+                    <RadioButton
+                        android:id="@+id/p2b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/pd_10dp"
+                        android:text="@string/rp1_b"
+                        android:textColor="#000">
+
+                    </RadioButton>
+
+                    <!-- Respuesta 3 -->
+                    <RadioButton
+                        android:id="@+id/p2c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/pd_10dp"
+                        android:text="@string/rp1_c"
+                        android:textColor="#000">
+
+                    </RadioButton>
+
+                    <!-- Respuesta 4 -->
+                    <RadioButton
+                        android:id="@+id/p2d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/pd_10dp"
+                        android:text="@string/rp1_d"
+                        android:textColor="#000">
+
+                    </RadioButton>
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/bt_vp2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/pd_10dp"
+                    android:text="@string/bt_v"
+                    android:onClick="v_p2"
+                    android:textColor="@drawable/txt_btn_dos"
+                    android:background="@drawable/btn_dos"
+                    android:layout_marginBottom="@dimen/pd_40dp">
+
+                </Button>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </LinearLayout>
