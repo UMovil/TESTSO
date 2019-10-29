@@ -63,6 +63,7 @@
 
             </LinearLayout>
 
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -148,7 +149,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/tp1"
+                    android:text="@string/tp2"
                     android:textColor="@color/primary_dark"
                     android:textSize="@dimen/pd_20sp">
 
@@ -157,7 +158,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/Pg_1"
+                    android:text="@string/Pg_2"
                     android:textColor="@color/primary_text"
                     android:textSize="@dimen/pd_20sp">
 
@@ -184,7 +185,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/pd_10dp"
-                        android:text="@string/rp1_a"
+                        android:text="@string/rp2_a"
                         android:textColor="#000">
 
                     </RadioButton>
@@ -195,7 +196,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/pd_10dp"
-                        android:text="@string/rp1_b"
+                        android:text="@string/rp2_b"
                         android:textColor="#000">
 
                     </RadioButton>
@@ -206,7 +207,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/pd_10dp"
-                        android:text="@string/rp1_c"
+                        android:text="@string/rp2_c"
                         android:textColor="#000">
 
                     </RadioButton>
@@ -217,7 +218,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="@dimen/pd_10dp"
-                        android:text="@string/rp1_d"
+                        android:text="@string/rp2_d"
                         android:textColor="#000">
 
                     </RadioButton>
@@ -237,9 +238,25 @@
 
                 </Button>
 
+                <Button
+                    android:id="@+id/total"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/pd_10dp"
+                    android:text="@string/bt_v"
+                    android:onClick="btotal"
+                    android:textColor="@drawable/txt_btn_dos"
+                    android:background="@drawable/btn_dos"
+                    android:layout_marginBottom="@dimen/pd_40dp">
+
+                </Button>
+
             </LinearLayout>
 
         </LinearLayout>
+
+
 
     </ScrollView>
 

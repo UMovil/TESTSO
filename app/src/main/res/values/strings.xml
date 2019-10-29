@@ -31,4 +31,11 @@
     <string name="rp1_b">b)\tUn sistema operativo es el código que acompaña la ejecución de cualquier aplicación.</string>
     <string name="rp1_c">c)\tUn sistema operativo es la parte del sistema de cómputo que administra el hardware y el software.</string>
     <string name="rp1_d">d)\ttodas las anteriores.</string>
+    // Pregunta 1
+    <string name="tp2">Pregunta 2</string>
+    <string name="Pg_2">¿Qué es un sistema multitarea?</string>
+    <string name="rp2_a">a)\tPermite que varios usuarios puedan ejecutar programas a la vez.</string>
+    <string name="rp2_b">b)\tNinguna de las anteriores.</string>
+    <string name="rp2_c">c)\tQue un mismo ordenador pueda tener varios microprocesadores que deben utilizarse simultáneamente.</string>
+    <string name="rp2_d">d)\tPermite ejecutar diversos programas al mismo tiempo.</string>
 </resources>
