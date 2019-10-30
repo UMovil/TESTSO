@@ -18,7 +18,6 @@ public class daoUsuario {
 
     String tabla = "create table if not exists usuario(id integer primary key autoincrement,nombre text,correo text,contraseña text, nota float)";
 
-
     public daoUsuario(Context c) {
 
         this.c = c;
@@ -29,9 +28,7 @@ public class daoUsuario {
 
         u = new usuarios();
 
-
     }
-
 
     public boolean insertUsuario(usuarios u) {
         if (buscar(u.getCorreo()) == 0) {
@@ -47,7 +44,6 @@ public class daoUsuario {
 
             return false;
         }
-
     }
 
     public int buscar(String u) {
@@ -87,13 +83,11 @@ public class daoUsuario {
         }
         return lista;
 
-
     }
 
     public int login(String u, String p) {
 
         int a=0;
-
 
         Cursor cr = sql.rawQuery("select * from usuario", null);
         if (cr != null && cr.moveToFirst()) {
@@ -106,9 +100,6 @@ public class daoUsuario {
                }
 
             } while (cr.moveToNext());
-
-
-
 
         }
          return a;
@@ -123,11 +114,9 @@ public class daoUsuario {
 
                 return us;
 
-
             }
         }
         return null;
-
     }
     public  usuarios getusuariosById(int id){
 
@@ -138,10 +127,8 @@ public class daoUsuario {
 
                 return us;
 
-
             }
         }
         return null;
-
     }
 }

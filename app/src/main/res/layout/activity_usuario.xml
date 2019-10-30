@@ -25,18 +25,19 @@
     </TextView>
 
     <ScrollView
+        android:id="@+id/scrol1"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <!--        Pregunta 1-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/pd_20dp"
             android:background="@color/icons"
             android:orientation="vertical"
-            android:padding="@dimen/pd_10dp"
-            android:layout_marginBottom="@dimen/pd_20dp">
+            android:padding="@dimen/pd_10dp">
 
+            <!--        Pregunta 1-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -62,7 +63,6 @@
                 </TextView>
 
             </LinearLayout>
-
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -120,6 +120,7 @@
                         android:textColor="#000">
 
                     </RadioButton>
+
                 </RadioGroup>
 
                 <Button
@@ -128,11 +129,11 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="@dimen/pd_10dp"
-                    android:text="@string/bt_v"
-                    android:onClick="v_p1"
-                    android:textColor="@drawable/txt_btn_dos"
+                    android:layout_marginBottom="@dimen/pd_40dp"
                     android:background="@drawable/btn_dos"
-                    android:layout_marginBottom="@dimen/pd_40dp">
+                    android:onClick="v_p1"
+                    android:text="@string/bt_v"
+                    android:textColor="@drawable/txt_btn_dos">
 
                 </Button>
 
@@ -230,22 +231,212 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="@dimen/pd_10dp"
-                    android:text="@string/bt_v"
-                    android:onClick="v_p2"
-                    android:textColor="@drawable/txt_btn_dos"
+                    android:layout_marginBottom="@dimen/pd_40dp"
                     android:background="@drawable/btn_dos"
-                    android:layout_marginBottom="@dimen/pd_40dp">
+                    android:onClick="v_p2"
+                    android:text="@string/bt_v"
+                    android:textColor="@drawable/txt_btn_dos">
 
                 </Button>
 
+            </LinearLayout>
+
+            <!--        Pregunta 3-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/icons"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tp3"
+                    android:textColor="@color/primary_dark"
+                    android:textSize="@dimen/pd_20sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pg_3"
+                    android:textColor="@color/primary_text"
+                    android:textSize="@dimen/pd_20sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/icons"
+                android:orientation="vertical">
+
+                <!-- Pregunta 1 -->
+                <RadioGroup
+                    android:id="@+id/p3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/icons">
+
+                    <!-- Respuesta 1 -->
+                    <RadioButton
+                        android:id="@+id/p3a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/pd_10dp"
+                        android:text="@string/rp3_a"
+                        android:textColor="#000">
+
+                    </RadioButton>
+
+                    <!-- Respuesta 2 -->
+                    <RadioButton
+                        android:id="@+id/p3b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/pd_10dp"
+                        android:text="@string/rp3_b"
+                        android:textColor="#000">
+
+                    </RadioButton>
+
+                    <!-- Respuesta 3 -->
+                    <RadioButton
+                        android:id="@+id/p3c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/pd_10dp"
+                        android:text="@string/rp3_c"
+                        android:textColor="#000">
+
+                    </RadioButton>
+
+                    <!-- Respuesta 4 -->
+                    <RadioButton
+                        android:id="@+id/p3d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/pd_10dp"
+                        android:text="@string/rp3_d"
+                        android:textColor="#000">
+
+                    </RadioButton>
+                </RadioGroup>
+
                 <Button
-                    android:id="@+id/total"
+                    android:id="@+id/bt_vp3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/pd_10dp"
+                    android:layout_marginBottom="@dimen/pd_40dp"
+                    android:background="@drawable/btn_dos"
+                    android:onClick="v_p3"
+                    android:text="@string/bt_v"
+                    android:textColor="@drawable/txt_btn_dos">
+
+                </Button>
+
+            </LinearLayout>
+
+            <!--        Pregunta 4-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/icons"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tp4"
+                    android:textColor="@color/primary_dark"
+                    android:textSize="@dimen/pd_20sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Pg_4"
+                    android:textColor="@color/primary_text"
+                    android:textSize="@dimen/pd_20sp">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/icons"
+                android:orientation="vertical">
+
+                <!-- Pregunta 1 -->
+                <RadioGroup
+                    android:id="@+id/p4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/icons">
+
+                    <!-- Respuesta 1 -->
+                    <RadioButton
+                        android:id="@+id/p4a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/pd_10dp"
+                        android:text="@string/rp4_a"
+                        android:textColor="#000">
+
+                    </RadioButton>
+
+                    <!-- Respuesta 2 -->
+                    <RadioButton
+                        android:id="@+id/p4b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/pd_10dp"
+                        android:text="@string/rp4_b"
+                        android:textColor="#000">
+
+                    </RadioButton>
+
+                    <!-- Respuesta 3 -->
+                    <RadioButton
+                        android:id="@+id/p4c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/pd_10dp"
+                        android:text="@string/rp4_c"
+                        android:textColor="#000">
+
+                    </RadioButton>
+
+                    <!-- Respuesta 4 -->
+                    <RadioButton
+                        android:id="@+id/p4d"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/pd_10dp"
+                        android:text="@string/rp4_d"
+                        android:textColor="#000">
+
+                    </RadioButton>
+                </RadioGroup>
+
+                <Button
+                    android:id="@+id/bt_vp4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="@dimen/pd_10dp"
                     android:text="@string/bt_v"
-                    android:onClick="btotal"
+                    android:onClick="v_p4"
                     android:textColor="@drawable/txt_btn_dos"
                     android:background="@drawable/btn_dos"
                     android:layout_marginBottom="@dimen/pd_40dp">
@@ -254,9 +445,124 @@
 
             </LinearLayout>
 
+            <!--        Pregunta 5-->
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/icons"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tp5"
+                android:textColor="@color/primary_dark"
+                android:textSize="@dimen/pd_20sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Pg_5"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/pd_20sp">
+
+            </TextView>
+
         </LinearLayout>
 
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/icons"
+        android:orientation="vertical">
 
+        <!-- Pregunta 1 -->
+        <RadioGroup
+            android:id="@+id/p5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/icons">
+
+            <!-- Respuesta 1 -->
+            <RadioButton
+                android:id="@+id/p5a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/pd_10dp"
+                android:text="@string/rp5_a"
+                android:textColor="#000">
+
+            </RadioButton>
+
+            <!-- Respuesta 2 -->
+            <RadioButton
+                android:id="@+id/p5b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/pd_10dp"
+                android:text="@string/rp5_b"
+                android:textColor="#000">
+
+            </RadioButton>
+
+            <!-- Respuesta 3 -->
+            <RadioButton
+                android:id="@+id/p5c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/pd_10dp"
+                android:text="@string/rp5_c"
+                android:textColor="#000">
+
+            </RadioButton>
+
+            <!-- Respuesta 4 -->
+            <RadioButton
+                android:id="@+id/p5d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/pd_10dp"
+                android:text="@string/rp5_d"
+                android:textColor="#000">
+
+            </RadioButton>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/bt_vp5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/pd_10dp"
+            android:text="@string/bt_v"
+            android:onClick="v_p5"
+            android:textColor="@drawable/txt_btn_dos"
+            android:background="@drawable/btn_dos"
+            android:layout_marginBottom="@dimen/pd_40dp">
+
+        </Button>
+
+    </LinearLayout>
+
+
+            <!--        Boton Terminar-->
+            <Button
+                android:id="@+id/total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/pd_10dp"
+                android:layout_marginBottom="@dimen/pd_40dp"
+                android:background="@drawable/btn_dos"
+                android:onClick="btotal"
+                android:text="@string/terminar"
+                android:textColor="@drawable/txt_btn_dos">
+            </Button>
+
+        </LinearLayout>
 
     </ScrollView>
 

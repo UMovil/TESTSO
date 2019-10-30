@@ -26,7 +26,6 @@
                 android:textColor="@color/white"
                 android:textSize="40sp" />
 
-
         </LinearLayout>
 
         <ScrollView
@@ -66,21 +65,19 @@
                         android:hint="@string/password"
                         android:inputType="textPassword" />
 
-
                 </android.support.design.widget.TextInputLayout>
+
                 <Button
                     android:id="@+id/login"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/tex_button_login"
-                    android:theme="@style/RaisedButtonDark"
+                    android:theme="@style/RaisedButtonDark" />
 
-                    />
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:gravity="center"
-                    >
+                    android:gravity="center">
 
                     <TextView
                         android:id="@+id/dontHaveAccount"
@@ -88,35 +85,25 @@
                         android:layout_height="wrap_content"
                         android:text="@string/dont_Have_Account"
                         android:textColor="@color/white"
-                        android:textStyle="bold"
                         android:textSize="@dimen/textsize_donthaveAccount"
+                        android:textStyle="bold" />
 
-                        />
                     <TextView
                         android:id="@+id/createHere"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/create_here"
-                        android:textSize="@dimen/textsize_donthaveAccount"
-                        android:textStyle="bold"
-                        android:textColor="@color/white"
                         android:layout_toRightOf="@id/dontHaveAccount"
-
-
-
-
-                        />
+                        android:text="@string/create_here"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/textsize_donthaveAccount"
+                        android:textStyle="bold" />
 
                 </RelativeLayout>
 
-
             </LinearLayout>
-
 
         </ScrollView>
 
-
     </LinearLayout>
-
 
 </android.support.design.widget.CoordinatorLayout>

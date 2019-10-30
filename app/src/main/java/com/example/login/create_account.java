@@ -16,12 +16,10 @@ public class create_account extends AppCompatActivity implements View.OnClickLis
     Button btn_cancelar;
     daoUsuario dao;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_account);
-
 
         tetcorreo = findViewById(R.id.email);
         tetnombre = findViewById(R.id.nombre);
@@ -35,8 +33,6 @@ public class create_account extends AppCompatActivity implements View.OnClickLis
         btn_cancelar.setOnClickListener(this);
 
         dao= new daoUsuario(this );
-
-
     }
 
     @Override
@@ -65,7 +61,6 @@ public class create_account extends AppCompatActivity implements View.OnClickLis
                 } else {
 
                     Toast.makeText(this,"Usuario ya registrado",Toast.LENGTH_LONG).show();
-
                 }
                 break;
 
@@ -75,10 +70,6 @@ public class create_account extends AppCompatActivity implements View.OnClickLis
                 startActivity(i);
                 finish();
                 break;
-
-
-
         }
-
     }
 }

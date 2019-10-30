@@ -31,11 +31,68 @@
     <string name="rp1_b">b)\tUn sistema operativo es el código que acompaña la ejecución de cualquier aplicación.</string>
     <string name="rp1_c">c)\tUn sistema operativo es la parte del sistema de cómputo que administra el hardware y el software.</string>
     <string name="rp1_d">d)\ttodas las anteriores.</string>
-    // Pregunta 1
+    // Pregunta 2
     <string name="tp2">Pregunta 2</string>
     <string name="Pg_2">¿Qué es un sistema multitarea?</string>
     <string name="rp2_a">a)\tPermite que varios usuarios puedan ejecutar programas a la vez.</string>
     <string name="rp2_b">b)\tNinguna de las anteriores.</string>
     <string name="rp2_c">c)\tQue un mismo ordenador pueda tener varios microprocesadores que deben utilizarse simultáneamente.</string>
     <string name="rp2_d">d)\tPermite ejecutar diversos programas al mismo tiempo.</string>
+    // Pregunta 3
+    <string name="tp3">Pregunta 3</string>
+    <string name="Pg_3">¿Cuál de los siguientes no es un sistema operativo?</string>
+    <string name="rp3_a">a)\tLinux</string>
+    <string name="rp3_b">b)\tWindows 2000 server</string>
+    <string name="rp3_c">c)\tMs dos</string>
+    <string name="rp3_d">d)\tKernel</string>
+    // Pregunta 4
+    <string name="tp4">Pregunta 4</string>
+    <string name="Pg_4">¿Qué es un sistema multiusuario?</string>
+    <string name="rp4_a">a)\tQue un mismo ordenador pueda tener varios microprocesadores que deben   utilizarse simultáneamente</string>
+    <string name="rp4_b">b)\tPermite que varios usuarios puedan ejecutar programas a la vez</string>
+    <string name="rp4_c">c)\tNinguna de las anteriores</string>
+    <string name="rp4_d">d)\tPermite ejecutar diversos programas al mismo tiempo.</string>
+    // Pregunta 5
+    <string name="tp5">Pregunta 5</string>
+    <string name="Pg_5">¿Las aplicaciones en Windows reciben el nombre de?</string>
+    <string name="rp5_a">a)\tArchivos</string>
+    <string name="rp5_b">b)\tFicheros</string>
+    <string name="rp5_c">c)\tProgramas</string>
+    <string name="rp5_d">d)\tTodas las anteriores</string>
+    <string name="terminar">Terminar</string>
+    <!--  // Pregunta 6
+      <string name="tp6">Pregunta </string>
+      <string name="Pg_6"></string>
+      <string name="rp6_a">a)\t</string>
+      <string name="rp6_b">b)\t</string>
+      <string name="rp6_c">c)\t</string>
+      <string name="rp6_d">d)\t</string>
+      // Pregunta 7
+      <string name="tp7">Pregunta </string>
+      <string name="Pg_7"></string>
+      <string name="rp7_a">a)\t</string>
+      <string name="rp7_b">b)\t</string>
+      <string name="rp7_c">c)\t</string>
+      <string name="rp7_d">d)\t</string>
+      // Pregunta 8
+      <string name="tp8">Pregunta </string>
+      <string name="Pg_8"></string>
+      <string name="rp8_a">a)\t</string>
+      <string name="rp8_b">b)\t</string>
+      <string name="rp8_c">c)\t</string>
+      <string name="rp8_d">d)\t</string>
+      // Pregunta 9
+      <string name="tp9">Pregunta </string>
+      <string name="Pg_9"></string>
+      <string name="rp9_a">a)\t</string>
+      <string name="rp9_b">b)\t</string>
+      <string name="rp9_c">c)\t</string>
+      <string name="rp9_d">d)\t</string>
+      // Pregunta 10
+      <string name="tp10">Pregunta </string>
+      <string name="Pg_10"></string>
+      <string name="rp10_a">a)\t</string>
+      <string name="rp10_b">b)\t</string>
+      <string name="rp10_c">c)\t</string>
+      <string name="rp10_d">d)\t</string>-->
 </resources>

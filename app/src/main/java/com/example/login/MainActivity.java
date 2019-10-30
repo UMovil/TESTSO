@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     TextView crea_aqui;
     daoUsuario dao;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,18 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         crea_aqui.setOnClickListener(this);
 
         dao = new daoUsuario(this);
-
-
-
     }
-
-    // METODO DEL ONCLIK--QUE USABAMOS
-
-   /* public void goCreateAccount(View view) {
-
-        Intent intent = new Intent(this, create_account.class);
-        startActivity(intent);
-    }*/
 
     @Override
     public void onClick(View v) {
@@ -61,23 +49,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     Intent i3 = new Intent(MainActivity.this, Usuario.class);
                     i3.putExtra("id ", ux.getId());
                     startActivity(i3);
-
                 } else {
                     Toast.makeText(this, "Correo y/o contraseña incorrectos", Toast.LENGTH_LONG).show();
-
                 }
-
                 break;
-
-
             case R.id.createHere:
-
                 Intent i = new Intent(MainActivity.this, create_account.class);
                 startActivity(i);
                 break;
-
-
         }
-
     }
 }
